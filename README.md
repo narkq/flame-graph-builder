@@ -35,3 +35,12 @@ Just a wrapper for [Brendan Gregg's scripts](http://www.brendangregg.com/FlameGr
 4. ???
 
 5. Profit!
+
+### Dev-mode
+
+1. Create a directory for saving your reports
+
+        mkdir src/reports
+        chmod o+rwx src/reports
+
+2. Add `-v $(pwd)/src:/var/www/html:rw` option when starting the container
