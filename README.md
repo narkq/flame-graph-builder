@@ -10,7 +10,7 @@ Just a wrapper for [Brendan Gregg's scripts](http://www.brendangregg.com/FlameGr
 
 2. Run the container
 
-        docker run --rm -it -p $external_ip:80:80 flame-graph-builder
+        docker run --rm -d -p $external_ip:80:80 flame-graph-builder
 
 3. Upload you perf script
 
