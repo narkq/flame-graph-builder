@@ -18,7 +18,7 @@ Just a wrapper for [Brendan Gregg's scripts](http://www.brendangregg.com/FlameGr
         ######################################################################## 100.0%
         HTTP/1.1 100 Continue
 
-        HTTP/1.1 200 OK
+        HTTP/1.1 201 Created
         Date: Thu, 01 Mar 2018 23:52:41 GMT
         Server: Apache/2.4.25 (Debian)
         X-Powered-By: PHP/7.2.2
